@@ -6,7 +6,7 @@ Structure of the program:
 
 We have 26 variables named as letters (a-z). At first, every variable is set to 0.
 
-Variables have a special type that can contain non-negative numbers up to INT_MAX^INT_MAX - 1.
+Variables have a special built-in type that can contain non-negative numbers up to INT_MAX^INT_MAX - 1.
 
 ## LANGUAGE
 
