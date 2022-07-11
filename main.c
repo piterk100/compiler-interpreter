@@ -26,6 +26,11 @@ struct variables {
     int *tab_size_all;
 };
 
+int max(int a, int b) {
+    if (a >= b) return a;
+    else return b;
+}
+
 void write(int tab[], int n) {
     printf("%d", tab[n - 1]);
     for (int i = n - 2; i >= 0; i--)
