@@ -66,6 +66,9 @@ INC b
 
 JMP 'adress of instruction DJZ'
 
+
+If you want to see machine code, uncomment function write_code in function compile.
+
 ## EXAMPLE
 
 ***input:***
