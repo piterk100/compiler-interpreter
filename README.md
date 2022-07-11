@@ -8,15 +8,25 @@ We have 26 variables named as letters (a-z). At first every variable is set to 0
 
 Variables have special type which can contain non-negative numbers up to INT_MAX^INT_MAX - 1.
 
-LANGUAGE
+## LANGUAGE
 
 * 'a' - increases value of a by 1
+```
+  ++a;
+```
 
   for example - 'aabbb' sets value a to 2 and value b to 3
-* '(ab...)' - it works as function while (a > 0) {--a; ++b; ...}
+* '(ab...)' - it works as function:
+```
+  while (a > 0) {
+     --a;
+     ++b; 
+     ...
+  }
+```
 * '=a' - writes value of variable a
 
-MACHINE CODE INSTRUCTIONS
+## MACHINE CODE INSTRUCTIONS
 
 * INC 'variable' (increment)
 
@@ -56,9 +66,9 @@ INC b
 
 JMP 'adress of instruction DJZ'
 
-EXAMPLE
+## EXAMPLE
 
-input:
+***input:***
 
 aaaaaaaaaa
 
@@ -72,7 +82,7 @@ aaaaaaaaaa
 
 =a
 
-output:
+***output:***
 
 10
 
@@ -80,4 +90,4 @@ output:
 
 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
 
-This was graded project for university. I scored max points in both quality of code and efficiency.
+## This was graded project for university. I scored max points in both quality of code and efficiency.
