@@ -1,16 +1,16 @@
-# This program simulates work of simple made-up language.
+# This program simulates the work of simple made-up language.
 
-Structure of program:
-1. Compiler generate optimized machine code.
-2. Interpreter reads machine code and takes action.
+Structure of the program:
+1. The compiler generates optimized machine code.
+2. The interpreter reads machine code and takes action.
 
-We have 26 variables named as letters (a-z). At first every variable is set to 0.
+We have 26 variables named as letters (a-z). At first, every variable is set to 0.
 
-Variables have special type which can contain non-negative numbers up to INT_MAX^INT_MAX - 1.
+Variables have a special type that can contain non-negative numbers up to INT_MAX^INT_MAX - 1.
 
 ## LANGUAGE
 
-* 'a' - increases value of a by 1
+* 'a' - increases the value of a by 1
 ```
   ++a;
 ```
@@ -49,7 +49,7 @@ Variables have special type which can contain non-negative numbers up to INT_MAX
 
   end progam
   
-If in instruction (...) there is no another instruction (...) and if no variable increasing is the same as variable decreasing, then compiler generates optimized code.
+If in instruction (...) there is no another instruction (...) and if no variable increasing is the same as variable decreasing, then the compiler generates optimized code.
 For example:
 (ab)
 generates:
@@ -90,4 +90,4 @@ aaaaaaaaaa
 
 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
 
-## This was graded project for university. I scored max points in both quality of code and efficiency.
+## It was a graded project for the university. I scored max points in both quality and efficiency of code.
